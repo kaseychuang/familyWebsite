@@ -1,37 +1,35 @@
-# GitHub Setup
+# Setup Your GitHub Repository
 
 This walkthrough is for you to setup your mentorship family's GitHub repo.
 
-Click the `Start` button to start the walkthrough!
-
-## What is GitHub?
-*Insert explanation of VCS and GitHub*
-
-## Create Your Account
-
-If you already have a GitHub account, you can skip this step.
-
-Register an account at [GitHub](https://github.com/).
+If you do not have a GitHub account, please register at [GitHub](https://github.com/) before continuing.
 
 ## Clone the Starter Repo
 
-NOTE: ONLY ONE MEMBER OF YOUR FAMILY NEEDS TO COMPLETE THE REST OF THIS TUTORIAL
-(but everyone should help out!)
-*Add explanation of how to git clone the starter-website repo*
+NOTE: ONLY ONE MEMBER OF YOUR FAMILY NEEDS TO COMPLETE THIS TUTORIAL (but everyone should help out!)
+
+Create a new folder on your Desktop or wherever you would like to store your GitHub repo on your local computer. 
+
+Open the terminal, move into the folder you created, and execute this command:
+```bash
+git clone https://github.com/WICSMentorship2020-21/starter-website.git
+```
+
+The starter-website repo has now been cloned (or copied) onto your local computer. 
 
 ## Create Your Mentorship Family's Repo
 
 Currently, your cloned repo is still pointing to the starter-website repo. Therefore, 
 you will need to unlink your cloned copy and relink it onto a new repository. 
-First, cd into home directory of the starter-website repo and call the command below:
+First, cd into the home directory of the repo you cloned and call the command below:
 
 ```bash
 git remote remove origin
 ```
 
 Next, you will need to create a new repository on the GitHub website. To do so, go to [GitHub](https://github.com/), 
-click on `+` in the top-right corner, and finally click `new repository`. You will now be able to create your own 
-mentorship family repo. Please name the repository your family name and set the repo to public.
+click on `+` -> `new repository` in the top right corner. Here, you can create your mentorship family's repo. 
+Please name the repository your family name and set the repo to public.
 
 ## Link Your Repo
 
@@ -43,7 +41,7 @@ git remote add origin INSERT_URL_HERE
 ```
 
 ```bash
-git push -u origin master
+git push -u origin main
 ```
 
 You may need to enter in your GitHub username and password. Please do so to complete this step.
@@ -54,8 +52,8 @@ You should now be able to see the starter code on your GitHub repo! If something
 
 Since your entire family will be working on this repository, you will need to invite them to add content. 
 
-In your GitHub repo, click on `Settings` -> `Manage Access` -> `Invite a Collaborator`
-Here, invite your family members via the email they used to register their GitHub account
+In your GitHub repo, click on `Settings` -> `Manage Access` -> `Invite a Collaborator`.
+Here, invite your family members via the email they used to register their GitHub account.
 
 ## Link Your Info
 
@@ -72,30 +70,34 @@ git config --global user.name INSERT_NAME_HERE
 ## Testing Time!
 
 Now, let's test it out to make sure everything works. First, modify your README file to say something like 
+
 "This repo contains team INSERT_TEAM_NAME's mentorship family memories."
 
 Next, you'll need to push your changes to your repo:
-1. Create a new branch with this command:
+1. Create a new branch with this command (you can name your branch anything e.g. UpdateReadme):
 
 ```bash
 git checkout -b YOUR_BRANCH_NAME
 ```
 
-2. Use git add to add all changes:
+2. Use git add to add your changes:
 ```bash
 git add README.md
 ```
 
 3. Commit your changes:
 ```bash
-git commit -m "Update the README.md file to describe the repo."
+git commit -m "Update the README.md file."
 ```
 
-4. Finally, push your changes using git push:
+4. Finally, push your changes onto your repo:
 ```bash
 git push origin YOUR_BRANCH_NAME
 ```
-Your changes should have been pushed onto your GitHub repo. You can now create a pull request and merge your changes. 
+Your changes should have been pushed onto your GitHub repo. You can now create a pull request (PR) and merge your changes. 
+
+Use this tutorial on [Creating Pull Requests](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request). Once you've created the PR, you can simple `merge changes` on the bottom.
+
 Please make sure everything is working up to this point before continuing!
 
 ## Your GitHub Repo is Ready To GO!
