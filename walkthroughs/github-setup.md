@@ -6,11 +6,9 @@ If you do not have a GitHub account, please register at [GitHub](https://github.
 
 ## Clone the Starter Repo
 
-NOTE: ONLY ONE MEMBER OF YOUR FAMILY NEEDS TO COMPLETE THIS TUTORIAL (but everyone should help out!)
+NOTE: ONLY ONE MEMBER OF YOUR FAMILY NEEDS TO COMPLETE THIS TUTORIAL (but everyone should help out!) 
 
-Create a new folder on your Desktop or wherever you would like to store your GitHub repo on your local computer. 
-
-Open the terminal, move into the folder you created, and execute this command:
+Open the terminal, move into your Desktop using cd, and execute this command:
 ```bash
 git clone https://github.com/WICSMentorship2020-21/starter-website.git
 ```
@@ -21,13 +19,13 @@ The starter-website repo has now been cloned (or copied) onto your local compute
 
 Currently, your cloned repo is still pointing to the starter-website repo. Therefore, 
 you will need to unlink your cloned copy and relink it onto a new repository. 
-First, cd into the home directory of the repo you cloned and call the command below:
+First, cd into the repo (or folder) you just cloned and call the command below:
 
 ```bash
 git remote remove origin
 ```
 
-Next, you will need to create a new repository on the GitHub website. To do so, go to [GitHub](https://github.com/), 
+Next, you will need to create a new repository on the GitHub website. To do so, go to [GitHub](https://github.com/) and 
 click on `+` -> `new repository` in the top right corner. Here, you can create your mentorship family's repo. 
 Please name the repository your family name and set the repo to public.
 
