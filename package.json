@@ -1,0 +1,23 @@
+{
+  "name": "starter-website",
+  "version": "1.0.0",
+  "description": "Starter website for WICS Mentorship 2020-21",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/webapp/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WICSMentorship2020-21/starter-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "bugs": {
+    "url": "https://github.com/WICSMentorship2020-21/starter-website/issues"
+  },
+  "homepage": "https://github.com/WICSMentorship2020-21/starter-website#readme"
+}
